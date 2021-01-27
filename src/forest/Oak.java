@@ -1,5 +1,5 @@
 package forest;
 // dub
-public class Oak extends Forest {
+public class Oak extends Tree {
 
 }

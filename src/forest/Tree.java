@@ -7,7 +7,8 @@ public abstract class Tree {
 	private int treeAge;
 	private int yearOfPlant;
 	private boolean isHealthy;
-	private boolean isHome;
+	private boolean isHomeForAnimal;
+	
 
 	public Tree() {
 
@@ -24,7 +25,7 @@ public abstract class Tree {
 		this.treeAge = treeAge;
 		this.yearOfPlant = yearOfPlant;
 		this.isHealthy = isHealthy;
-		this.isHome = isHome;
+		this.isHomeForAnimal = isHome;
 	}
 
 	public int getYearOfPlant() {
@@ -44,11 +45,11 @@ public abstract class Tree {
 	}
 
 	public boolean getIsHome() {
-		return isHome;
+		return isHomeForAnimal;
 	}
 
 	public void setHome(boolean isHome) {
-		this.isHome = isHome;
+		this.isHomeForAnimal = isHome;
 	}
 
 	public String getTreeSpecies() {
@@ -73,6 +74,10 @@ public abstract class Tree {
 
 	public void setTreeAge(int treeAge) {
 		this.treeAge = treeAge;
+	}
+	
+	public void grow ( int height) {
+		treeHeight+=height;
 	}
 
 }

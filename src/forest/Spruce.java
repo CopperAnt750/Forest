@@ -1,5 +1,5 @@
 package forest;
 // yalinka
-public class Spruce extends Forest {
+public class Spruce extends Tree {
 
 }
