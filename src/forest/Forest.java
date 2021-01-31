@@ -11,6 +11,7 @@ public class Forest {
 		firstOne.setHome(true);
 		
 		System.out.println("A first tree is Oak from "+ firstOne.getYearOfPlant() );
+		System.out.println("Second line " );
 	}
 
 }
